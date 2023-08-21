@@ -1,5 +1,4 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
-
 <html>
 <head>
   <title>Currency Converter</title>
@@ -7,7 +6,7 @@
 </head>
 <body>
 <h2>Currency Converter</h2>
-<form action="/convert" method="post">
+<form action="Bai10/ThucHanh/converter.jsp" method="get">
   <label>Rate: </label><br/>
   <input type="text" name="rate" placeholder="RATE" value="22000"/><br/>
   <label>USD: </label><br/>
